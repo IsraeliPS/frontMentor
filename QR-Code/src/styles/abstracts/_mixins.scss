@@ -1,0 +1,51 @@
+// breakpoints
+$Small: 320px;
+$Mobile: 375px;
+$MobileL: 425px;
+$Tablet: 768px;
+$Laptop: 1024px;
+$Desktop: 1440px;
+$Large: 1441px;
+
+@mixin responsive($breakpoint) {
+  @if ($breakpoint == $Small) {
+    @media screen and (max-width: $Small) {
+      @content;
+    }
+  }
+  @if ($breakpoint == $Mobile) {
+    @media screen and (min-width: 321px) and (max-width: $Mobile) {
+      @content;
+    }
+  }
+  @if ($breakpoint == $MobileL) {
+    @media screen and (min-width: 376px) and (max-width: $MobileL) {
+      @content;
+    }
+  }
+  @if ($breakpoint == $Tablet) {
+    @media screen and (min-width: 426px) and (max-width: $Tablet) {
+      @content;
+    }
+  }
+  @if ($breakpoint == $Laptop) {
+    @media screen and (min-width: 769px) and (max-width: $Laptop) {
+      @content;
+    }
+  }
+  @if ($breakpoint == $Desktop) {
+    @media screen and (min-width: 1025px) and (max-width: $Desktop) {
+      @content;
+    }
+  }
+  @if ($breakpoint == $Large) {
+    @media screen and (min-width: $Large) {
+      @content;
+    }
+  }
+}
+/*
+como  me estoy tratando
+
+
+*/

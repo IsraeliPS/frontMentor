@@ -1,0 +1,197 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: $white;
+  border-radius: 20px;
+  @include responsive($Small) {
+    height: 52vh;
+    width: 83vw;
+  }
+  @include responsive($Mobile) {
+    height: 51vh;
+    width: 75vw;
+  }
+  @include responsive($MobileL) {
+    height: 51vh;
+    width: 75vw;
+  }
+  @include responsive($Tablet) {
+    height: 42vh;
+    width: 25vw;
+  }
+  @include responsive($Laptop) {
+    height: 42vh;
+    width: 25vw;
+  }
+  @include responsive($Desktop) {
+    height: 40vh;
+    width: 25vw;
+  }
+  @include responsive($Large) {
+    height: 33vh;
+    width: 25vw;
+  }
+
+  .qrImage {
+    margin: 0;
+    padding: 0;
+    @include responsive($Small) {
+      height: 34vh;
+    }
+    @include responsive($Mobile) {
+      height: 34vh;
+    }
+    @include responsive($MobileL) {
+      height: 34vh;
+    }
+    @include responsive($Tablet) {
+      height: 28vh;
+    }
+    @include responsive($Laptop) {
+      height: 28vh;
+    }
+    @include responsive($Desktop) {
+      height: 28vh;
+    }
+    @include responsive($Large) {
+      height: 23vh;
+    }
+  }
+
+  .image {
+    border-radius: 10px;
+    @include responsive($Small) {
+      margin: 1.5vh 5vw;
+      height: 30vh;
+      width: 73.5vw;
+    }
+    @include responsive($Mobile) {
+      margin: 1.5vh 4.5vw;
+      height: 30vh;
+      width: 66.5vw;
+    }
+    @include responsive($MobileL) {
+      margin: 1.5vh 4.5vw;
+      height: 30vh;
+      width: 66.5vw;
+    }
+    @include responsive($Tablet) {
+      margin: 1.5vh 1vw;
+      height: 25vh;
+      width: 23vw;
+    }
+    @include responsive($Laptop) {
+      margin: 1.2vh 1vw;
+      height: 25vh;
+      width: 23vw;
+    }
+    @include responsive($Desktop) {
+      margin: 1.2vh 1vw;
+      height: 25vh;
+      width: 23vw;
+    }
+    @include responsive($Large) {
+      margin: 1.2vh 1vw;
+      height: 20vh;
+      width: 23vw;
+    }
+  }
+  h3,
+  p {
+    text-align: center;
+    color: $dark_blue;
+  }
+
+  .title {
+    font-weight: 700;
+    margin: 0 10px;
+    padding: 0 10px;
+
+    @include responsive($Small) {
+      font-size: 19px;
+      text-align: center;
+    }
+    @include responsive($Mobile) {
+      font-size: 20px;
+      text-align: center;
+    }
+    @include responsive($MobileL) {
+      font-size: 20px;
+      text-align: center;
+    }
+    @include responsive($Tablet) {
+      margin: 0 0px;
+      font-size: 14px;
+      text-align: center;
+    }
+    @include responsive($Laptop) {
+      margin: 0 0px;
+      font-size: 18px;
+      text-align: center;
+    }
+    @include responsive($Desktop) {
+      margin: 0 0px;
+      font-size: 20px;
+      text-align: center;
+    }
+    @include responsive($Large) {
+      margin: 0 0px;
+      font-size: 34px;
+      text-align: center;
+    }
+  }
+
+  .subtitle {
+    font-weight: 400;
+    margin: 10px 1rem;
+    padding: 10px 8px;
+    font-size: 15px;
+    @include responsive($Small) {
+      margin: 15px 1rem;
+      padding: 0 8px;
+      font-size: 14px;
+      text-align: center;
+    }
+    @include responsive($Mobile) {
+      margin: 16px 1rem;
+      padding: 0 8px;
+      font-size: 14px;
+      text-align: center;
+    }
+    @include responsive($MobileL) {
+      margin: 16px 1rem;
+      padding: 0 8px;
+      font-size: 14px;
+      text-align: center;
+    }
+    @include responsive($Tablet) {
+      margin: 12px 4px;
+      padding: 0 8px;
+      font-size: 12px;
+      text-align: center;
+    }
+    @include responsive($Laptop) {
+      margin: 5px 10px;
+      padding: 10px 0px;
+      font-size: 16px;
+      text-align: center;
+    }
+    @include responsive($Desktop) {
+      margin: 5px 10px;
+      padding: 10px 0px;
+      font-size: 18px;
+      text-align: center;
+    }
+    @include responsive($Large) {
+      margin: 10px 10px;
+      padding: 10px 0px;
+      font-size: 28px;
+      text-align: center;
+    }
+  }
+}

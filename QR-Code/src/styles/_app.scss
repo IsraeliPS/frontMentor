@@ -9,31 +9,31 @@
   background-color: $white;
   border-radius: 20px;
   @include responsive($Small) {
-    height: 52vh;
+    // height: 52vh;
     width: 83vw;
   }
   @include responsive($Mobile) {
-    height: 51vh;
+    // height: 51vh;
     width: 75vw;
   }
   @include responsive($MobileL) {
-    height: 51vh;
+    // height: 51vh;
     width: 75vw;
   }
   @include responsive($Tablet) {
-    height: 42vh;
+    // height: 42vh;
     width: 25vw;
   }
   @include responsive($Laptop) {
-    height: 42vh;
+    // height: 42vh;
     width: 25vw;
   }
   @include responsive($Desktop) {
-    height: 40vh;
+    // height: 40vh;
     width: 25vw;
   }
   @include responsive($Large) {
-    height: 33vh;
+    // height: 33vh;
     width: 25vw;
   }
 
